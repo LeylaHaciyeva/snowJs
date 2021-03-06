@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(2, 2, 70);
+    position: relative;
+}
+i{
+    color:white;
+    position: absolute;
+    top: 0;
+    animation: fall linear forwards;
+}
+
+@keyframes fall {
+    to {top: 600px;}
+  }
